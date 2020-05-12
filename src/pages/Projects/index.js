@@ -1,2 +1,12 @@
 import React from "react";
-import './index.css';
+import './style.css';
+
+function Projects() {
+    return (
+        <div>
+            <p id="myapp">My Projects</p>
+        </div>
+    );
+};
+
+export default Projects;
