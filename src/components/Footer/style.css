@@ -1,0 +1,10 @@
+footer {
+   background-color: #343a40;
+   text-align: center;
+   height: 70px;
+   color: white;
+}
+
+#footer-container, .row, .col {
+    height: inherit;
+}
