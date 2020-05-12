@@ -1,0 +1,17 @@
+#myapp {
+  /* margin-left: 20px; */
+}
+
+#home-images {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+#mepic {
+  width: 25%;
+  display: block;
+  position: absolute;
+  right: 50%;
+  bottom: -120px;
+  transform: translateX(50%);
+}
