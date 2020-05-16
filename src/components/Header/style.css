@@ -1,8 +1,19 @@
 #name {
-    font-size: 30px;
+    font-size: 36.9px;
     padding-left: 20px;
+    color: #212529;
+}
+
+header {
+    height: 70px;
 }
 
 #nav {
+    background-color: #ef9080!important;
+    min-width: 400px;
+}
 
+.nav-links {
+    color: #212529!important;
+    padding: 8px;
 }
