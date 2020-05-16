@@ -1,17 +1,55 @@
-#myapp {
-  /* margin-left: 20px; */
-}
+
 
 #home-images {
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
-#mepic {
+#me {
   width: 25%;
   display: block;
   position: absolute;
   right: 50%;
-  bottom: -120px;
+  bottom: -30%;
   transform: translateX(50%);
+}
+
+.home-rows {
+  margin-bottom: 100px;
+}
+
+.project-rows {
+  margin-bottom: 100px;
+}
+
+.connect-links {
+color: #212529;
+}
+
+p {
+  color: #212529;
+}
+
+@media only screen and (max-width: 600px) {
+  #me {
+  width: 40%;
+  display: block;
+  position: absolute;
+  right: 50%;
+  bottom: -60%;
+  transform: translateX(50%);
+}
+}
+
+@media only screen and (min-width: 1199px) {
+  #home-images {
+  position: relative;
+  margin-bottom: 120px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  #nopadding {
+    padding: 0px;
+  }
 }
